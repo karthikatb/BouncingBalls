@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(
+        135deg,
+        #0f2027,
+        #203a43,
+        #2c5364
+    );
+}
+
+canvas {
+    display: block;
+}
+
+#countBox {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+
+    padding: 10px 20px;
+
+    color: white;
+    font-size: 24px;
+
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+
+    border-radius: 12px;
+}
+
+#info {
+    position: absolute;
+    top: 80px;
+    left: 15px;
+
+    color: white;
+    font-size: 16px;
+    line-height: 1.6;
+
+    background: rgba(255,255,255,0.1);
+    padding: 10px 15px;
+    border-radius: 12px;
+}
